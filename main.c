@@ -33,6 +33,12 @@ int main (){
             default:
                 printf("\nOperacao invalida, tente novamente. ");
         }
+        printf("\nPara sair digite 0, para usar novamente digite 1: ");
+        scanf(" %c", &operacao);
+        if (operacao == '0'){
+            printf("\nAplicacao finalizada");
+            break;
+        }
     }
     return 0;
 }
